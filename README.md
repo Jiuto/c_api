@@ -1,4 +1,4 @@
-## c_axios
+## jiuto_axios
 
 默认导出一个封装好的axios
 
@@ -39,3 +39,9 @@ basePut = (url, data, config = {}) => {
     return base(config);
 };
 ```
+
+### 使用
+
+`npm i jiuto_axios`
+
+`import { baseGet, basePost, basePut, baseDelete } from "jiuto_axios";`

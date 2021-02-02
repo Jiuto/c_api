@@ -1,6 +1,6 @@
 {
-  "name": "c_axios",
-  "version": "1.0.0",
+  "name": "jiuto_axios",
+  "version": "1.0.1",
   "description": "axios package",
   "main": "index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jiuto/c_axios.git"
+    "url": "git+https://github.com/Jiuto/jiuto_axios.git"
   },
   "author": "jiuto",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jiuto/c_axios/issues"
+    "url": "https://github.com/Jiuto/jiuto_axios/issues"
   },
-  "homepage": "https://github.com/Jiuto/c_axios#readme",
+  "homepage": "https://github.com/Jiuto/jiuto_axios#readme",
   "devDependencies": {
     "@rollup/plugin-json": "^4.1.0",
     "rollup": "^2.38.0",
