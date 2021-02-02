@@ -1,0 +1,29 @@
+{
+  "name": "c_axios",
+  "version": "1.0.0",
+  "description": "axios package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiuto/c_axios.git"
+  },
+  "author": "jiuto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jiuto/c_axios/issues"
+  },
+  "homepage": "https://github.com/Jiuto/c_axios#readme",
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "rollup": "^2.38.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
