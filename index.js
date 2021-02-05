@@ -63,6 +63,9 @@ export const base = (config = {}) => {
 
     //返回结果
     let res = axios.request(config).catch((error) => {
+        if (error.response) {
+            return Promise.reject(error.response.data);
+        }
         error.message && (error.msg = error.message);
         return Promise.reject(error);
     });
